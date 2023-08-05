@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-body{
+    width: 100%;
+    margin-top: 75px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.slideImage{
+    width: 100%;
+}
+
+.slideImage>img{
+    width: 100%;
+}
+
+.headingStyling {
+    letter-spacing: 2px;
+    margin: 4%;
+    font-size: 30px;
+    color: #424656;
+}
+
+.imageFlex {
+    width: 100%;
+    display: flex;
+}
+
+.imageFlex>div>img {
+    height: 253px;
+}
+
+.myntraExclusiveBrands {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.myntraExclusiveBrands>div {
+    width: 12%;
+}
+
+.myntraExclusiveBrands>div>img {
+    height: 217px;
+}
+
+.topPicks {
+    width: 100%;
+    display: flex;
+}
+
+.topPicks>div>img {
+    height: 236px;
+}
+
+.categoryBag {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #f6f6f6;
+}
+
+.categoryBag>div>img {
+    height: 209px;
+}
+
+.influencerExclusiveStyle {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.influencerExclusiveStyle>div>img {
+    height: 160px;
+}
+
+.budgetInfluencerLove {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.budgetInfluencerLove>div>img {
+    height: 223px;
+}
+
+.trendingInfluencerOutfit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+.trendingInfluencerOutfit>div>img {
+    height: 221px;
+}

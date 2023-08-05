@@ -1,0 +1,207 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-product-body{
+    width: 100%;
+    margin-top: 75px;
+}
+
+.breadCrumbs {
+    position: relative;
+    z-index: -1;
+    background: white;
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.breadCrumbs>div:nth-child(1) {
+    width: 98%;
+    position: relative;
+    left: 2%;
+    margin:1% 0% 1% 0%;
+}
+
+.breadCrumbs>div:nth-child(2) {
+    width: 98%;
+    position: relative;
+    left: 2%;
+    margin-bottom: 2%;
+}
+
+.homeColor{
+    color: #282c3f;
+    font-size: 13px;
+}
+
+.itemHeadingColor{
+    color: #282c3f;
+    font-size: 15px;
+}
+
+.filterSection{
+    width: 96%;
+    position: relative;
+    left: 2%;
+    right: 2%;
+    display: flex;
+}
+
+.filterSection>div:nth-child(1){
+    width: 22%;
+}
+
+.filterSection>div:nth-child(2){
+    width: 56%;
+}
+
+.filterSection>div:nth-child(2)>select{
+    border:none;
+    margin-right: 2%;
+    color: #2c3043;
+}
+
+.filterSection>div:nth-child(3){
+    width: 18%;
+    border: 1px solid #e9e9ed;
+    padding: 8px;
+}
+
+.filterSection>div:nth-child(3)>select{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#inside-all-product-body {
+    width: 100%;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e9e9ed;
+}
+
+#inside-all-product-body>div:nth-child(1) {
+    width: 22%;
+}
+
+.headingCategory {
+    display: flex;
+    border-right: 1px solid #e9e9ed;
+    padding-left: 7%;
+    padding-top: 18px;
+    padding-bottom: 10px;
+
+}
+
+.checkbox_filter>label>span{
+    color: #878b94;
+}
+
+.checkbox_filter {
+    padding-left: 21px;
+    border-right: 1px solid #e9e9ed;
+    border-bottom: 1px solid #e9e9ed;
+    padding-bottom: 23px;
+}
+
+.checkbox_filter>p{
+    font-size: 14px;
+    color: red;
+    margin-top: 3%;
+    margin-left: 9%;
+}
+
+.checkbox_filter>label{
+    color: #2c3043;
+    font-size: 12px;
+}
+
+.filter_category {
+    border-right: 1px solid #e9e9ed;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.brandCss{
+    position: relative;
+    left: 7%;
+    
+    display: flex;
+}
+
+.brandCss>div:nth-child(1){
+    width: 82%;
+}
+
+
+.brandCss>div:nth-child(2){
+    width: 12%;
+}
+
+.priceMargin{
+    margin-right: 9px;
+}
+
+.rightDiv{
+    width: 77%;
+}
+
+.singleProductDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+    flex-wrap: wrap;
+}
+
+.singleProductCss{
+    width: 22%;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 29px;
+    border: 1px solid #878b94;
+}
+
+.text_css_Heading{
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: black;
+
+}
+
+.text_css {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #878b94;
+    font-size: 14px;
+}
+
+.mrpSpace {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    padding-top: 8px;
+    padding-left: 5px;
+    color: #878b94;
+    font-size: 12px;
+}
+
+.offerCss{
+    padding-top: 8px;
+    color: #ffb6e7;
+    font-size: 12px;
+}
+
+.product-image-in-all-product{
+    height: 250px;
+    width: 100%;
+} 

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#footer-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-body>div:nth-child(1) {
+    color: #fafbfc;
+    width: 80%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.onlineShopping {
+    width: 15%;
+    color: black;
+}
+
+.footerHeading{
+    color: #282c3f;
+    margin-bottom: 7%;
+    font-size: 11px;
+}
+
+.footerText{
+    color: #696e79;
+    margin-bottom: 2%;
+    font-size: 13px;
+}
+
+.footerSubHeading{
+    color: #282c3f;
+    margin-bottom: 7%;
+    margin-top: 8%;
+    font-size: 11px;
+}
+
+.customerpolicy{
+    width: 25%;
+}
+
+.experianceMyntraMobile {
+    width: 35%;
+}
+
+.appDownloadImage{
+    width: 100%;
+    display: flex;
+}
+.appDownloadImage>div:nth-child(1){
+    width: 50%;
+}
+
+.appDownloadImage>div:nth-child(2){
+    width: 50%;
+}
+
+.androidLink{
+    width: 82%;
+}
+
+.iosLink{
+    width: 71%;
+}
+
+.socialMediaLogo{
+    width: 100%;
+    display: flex;
+}
+
+.socialMediaLogo>div{
+    width: 10%;
+}
+
+.socialMediaLogo>div>img{
+    width: 60%;
+}
+
+.originalLogo{
+    width: 25%;
+}
+
+.originalLogo>div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.originalLogo>div>div:nth-child(1){
+    width: 15%;
+}
+
+.originalLogo>div>div:nth-child(2){
+    width: 75%;
+    margin-bottom: 10%;
+}
+
+.originalLogo>div>div:nth-child(2)>p{
+    color: black;
+    font-size: 14px;
+}
